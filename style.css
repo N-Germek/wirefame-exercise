@@ -2,3 +2,24 @@
     box-sizing: border-box
 }
 
+header {
+    display: flex;
+    background-color: gray;
+}
+
+nav {
+    display:flex;
+    width: 960px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main {
+    flex: auto;
+    margin: auto;
+}
