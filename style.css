@@ -8,18 +8,35 @@ header {
 }
 
 nav {
-    display:flex;
     width: 960px;
-
+    margin: .5rem auto;
+    display: inline-flex;
 }
-
-ul {
+nav ul {
     display: flex;
+    margin: 50px;
     justify-content: space-between;
-    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+nav li {
+    border: solid purple 5px;
+    margin: auto;
+    justify-content: space-between;
+}
+a {
+    display: flex;
 }
 
+main img {
+    margin-bottom: 30px;
+    background-color: black;
+}
 main {
-    flex: auto;
-    margin: auto;
+    width: 960px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
